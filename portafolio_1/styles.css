@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(217, 225, 248);
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(35, 33, 38);
+    text-align: center;
+}
+ 
+.sobre-mi {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.parrafo-1 {
+    navbar {
+        background-color: rgb(217, 225, 248);
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(35, 33, 38);
+        text-align: center;
+    }
+    margin: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f3fbd8;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    margin: 5rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: #332d2d 0px 0px 10px;
+
+}
+
+button {
+    felx-direction: row;
+    margin:auto;
+    gap: 20px;
+    box-shadow: #332d2d 0px 0px 10px;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: rgb(217, 225, 248);
+    box-sizing: border-box;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align:center;
+
+}
+

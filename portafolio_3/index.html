@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio - Andres Felipe Arboleda Hernandez</title>
+  
+  <!-- CSS de Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .hero-section {
+      background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+      color: white;
+      padding: 80px 0;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+
+    .badge-skill {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin: 3px;
+    }
+
+    .progress {
+      height: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #212529;
+      color: #adb5bd;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><i class="bi bi-code-slash text-primary"></i> Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header class="hero-section text-center shadow">
+    <div class="container">
+      <div class="mb-3">
+    
+      <!-- CÓDIGO CORREGIDO -->
+<img src="img/foto_unitecnica.jpg" alt="Foto de Andres Felipe Arboleda" class="rounded-circle shadow object-fit-cover" style="width: 110px; height: 110px;">
+      </div>
+      <h1 class="fw-bold display-5 mb-2">Andres Felipe Arboleda Hernandez</h1>
+      <p class="lead mb-4">Estudiante de Ingeniería de Sistemas | Técnico en Hardware & Software</p>
+      <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 shadow-sm fw-semibold text-primary">
+        <i class="bi bi-envelope-fill me-1"></i> Contactar
+      </a>
+    </div>
+  </header>
+
+  <!-- Sección: Sobre Mí & Datos Básicos -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="card shadow-sm p-4">
+            <h2 class="h3 fw-bold text-primary mb-4"><i class="bi bi-person-badge me-2"></i>Datos Básicos</h2>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <p class="mb-1 text-muted"><strong>Nombre:</strong></p>
+                <p class="fs-6">Andres Felipe Arboleda Hernandez</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-1 text-muted"><strong>Perfil:</strong></p>
+                <p class="fs-6">Sistemas, Desarrollo & Mantenimiento</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-1 text-muted"><strong>Ubicación:</strong></p>
+                <p class="fs-6"><i class="bi bi-geo-alt-fill text-danger me-1"></i>Villamaría, Caldas, Colombia</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-1 text-muted"><strong>Idiomas:</strong></p>
+                <p class="fs-6">Español (Nativo)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Habilidades -->
+  <section id="skills" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="h3 fw-bold text-center text-primary mb-5"><i class="bi bi-cpu me-2"></i>Mis Habilidades</h2>
+
+      <div class="row g-4">
+
+        <!-- Card 1: Programación -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-4 text-center">
+            <div class="text-primary mb-3">
+              <i class="bi bi-code-square display-4"></i>
+            </div>
+            <h3 class="h5 fw-bold">Programación & Web</h3>
+            <p class="text-muted small">Desarrollo de lógica, estructuras web y manejo de bases de datos.</p>
+            
+            <div class="text-start mt-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Python</span>
+                <span class="small text-muted">Intermedio</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-primary" style="width: 70%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">JavaScript / HTML / CSS</span>
+                <span class="small text-muted">Intermedio</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-primary" style="width: 75%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">SQL & Bases de Datos</span>
+                <span class="small text-muted">Básico / Intermedio</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width: 65%"></div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-2 border-top">
+              <span class="badge bg-light text-dark badge-skill">VS Code</span>
+              <span class="badge bg-light text-dark badge-skill">DBeaver</span>
+              <span class="badge bg-light text-dark badge-skill">Bubble.io</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Excel -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-4 text-center">
+            <div class="text-success mb-3">
+              <i class="bi bi-file-earmark-spreadsheet display-4"></i>
+            </div>
+            <h3 class="h5 fw-bold">Herramientas & Excel</h3>
+            <p class="text-muted small">Gestión, organización de datos y automatización en hojas de cálculo.</p>
+            
+            <div class="text-start mt-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Fórmulas & Funciones</span>
+                <span class="small text-muted">Avanzado</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 80%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Tablas Dinámicas</span>
+                <span class="small text-muted">Intermedio</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" style="width: 75%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Organización de Datos</span>
+                <span class="small text-muted">Avanzado</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-success" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-2 border-top">
+              <span class="badge bg-light text-dark badge-skill">Microsoft Excel</span>
+              <span class="badge bg-light text-dark badge-skill">Ofimática</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Hardware -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-4 text-center">
+            <div class="text-warning mb-3">
+              <i class="bi bi-tools display-4"></i>
+            </div>
+            <h3 class="h5 fw-bold">Técnico en Hardware</h3>
+            <p class="text-muted small">Mantenimiento preventivo, correctivo y ensamblaje de equipos informáticos.</p>
+            
+            <div class="text-start mt-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Mantenimiento PC / Laptops</span>
+                <span class="small text-muted">Avanzado</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-warning" style="width: 85%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Diagnóstico de Fallas</span>
+                <span class="small text-muted">Avanzado</span>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-warning" style="width: 80%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between mb-1">
+                <span class="small fw-semibold">Instalación de S.O. & Drivers</span>
+                <span class="small text-muted">Avanzado</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-warning" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-2 border-top">
+              <span class="badge bg-light text-dark badge-skill">Ensamblaje</span>
+              <span class="badge bg-light text-dark badge-skill">Optimización</span>
+              <span class="badge bg-light text-dark badge-skill">Componentes</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Contacto -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card shadow-sm p-4">
+            <h2 class="h3 fw-bold text-center text-primary mb-4"><i class="bi bi-envelope me-2"></i>Contacto</h2>
+            
+            <!-- Formulario interactivo (demostración) -->
+            <form onsubmit="event.preventDefault(); alert('¡Gracias! Mensaje recibido.');">
+              <div class="mb-3">
+                <label for="name" class="form-label font-semibold">Tu Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ej: Maria Lopez" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@correo.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100 rounded-pill">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-0 small">&copy; 2026 Andres Felipe Arboleda Hernandez. Desarrollado con Bootstrap 5.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript de Bootstrap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
